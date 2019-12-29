@@ -1,0 +1,49 @@
+{
+    "projects":[
+        {
+            "id":0,
+            "project_name":"Random Qoute Generator",
+            "description":"A program that displays a randomally selected qoute and background color after a set amount of time or when the user clicks a button.",
+            "technologies":["HTML", "CSS","Javascript"],
+            "live_link":"",
+            "github_link":"https://github.com/AndrewArtistics/unit1-random-quotes",
+            "image_urls":["/imgs/Project-1-img1.png","/imgs/Project-1-img2.png", "/imgs/Project-1-img3.png", "/imgs/Project-1-img4.png"]
+        },
+        {
+            "id":1,
+            "project_name":"List Pagination and Filtering",
+            "description":"A program that creates a page for a long list of students by dividing them into blocks of 10.",
+            "technologies":["HTML", "CSS","Javascript","JQuery"],
+            "live_link":"",
+            "github_link":"https://github.com/AndrewArtistics/Unit2-list-pagination",
+            "image_urls":["/imgs/Project-2-img1.png","/imgs/Project-2-img2.png","/imgs/Project-2-img3.png"]
+        },
+        {
+            "id":2,
+            "project_name":"Interactive Form",
+            "description":"An interactive form that a user can fill out. Any incorrect or incomplete information will result in an error message for the missing fields upon pressing the submit button.",
+            "technologies":["HTML", "CSS","Javascript","JQuery"],
+            "live_link":"",
+            "github_link":"https://github.com/AndrewArtistics/Unit3-interactive",
+            "image_urls":["/imgs/Project-3-img1.png","/imgs/Project-3-img2.png","/imgs/Project-3-img3.png"]
+        },
+        {
+            "id":3,
+            "project_name":"OOP Game Show App",
+            "description":"An interactive game that selects a random phrase. The player guesses the hidden letters by selecting each letter from the on-screen keyboard. Incorrect guesses deplete your 'lives' and correct guesses reveal the letter(s).",
+            "technologies":["HTML", "CSS","Javascript","JQuery","OOP JS"],
+            "live_link":"",
+            "github_link":"https://github.com/AndrewArtistics/Unit4-game-show",
+            "image_urls":["/imgs/Project-4-img1.png","/imgs/Project-4-img2.png","/imgs/Project-4-img3.png","/imgs/Project-4-img4.png"]
+        },
+        {
+            "id":4,
+            "project_name":"Public API requests",
+            "description":"Is a program that displays an employee directory that obtains the data of each one from the third-party API(Application Programming Interface) \"The Random User Generator\". It also includes a search function and a function to see more information about users and move between them if you click on them.",
+            "technologies":["HTML", "CSS","Javascript","JQuery","AJAX"],
+            "live_link":"",
+            "github_link":"https://github.com/AndrewArtistics/Unit5-public-api",
+            "image_urls":["/imgs/Project-5-img1.png","/imgs/Project-5-img2.png","/imgs/Project-5-img3.png"]
+        }
+    ]
+}
