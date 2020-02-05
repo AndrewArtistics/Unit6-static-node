@@ -11,9 +11,9 @@ const aboutRoute = require('./routes/about');
 const projectRoute = require('./routes/projects');
 
 app.use(mainRoute);
-app.use('index', index);
-app.use('projects', projectRoute);
-app.use('about', aboutRoute);
+//app.use('index', index);
+app.use(projectRoute);
+app.use(aboutRoute);
 
 app.use((req, res, next) => {
   console.error('Page can\'t be found');
@@ -30,5 +30,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(port, (req,res)=>{
-  console.log('I DON\'T KNOW WHAT\'S WRONG FUCKING KILL ME')
+  console.log('Hahahaha great')
 });

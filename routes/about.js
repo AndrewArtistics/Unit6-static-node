@@ -3,7 +3,7 @@ const router = express.Router();
 const { projects } = require('../data/data.json');
 
 /* renders the about page*/
-router.get('/',(req,res)=>{
+router.get('/about',(req,res)=>{
     res.render('about');
 });
 

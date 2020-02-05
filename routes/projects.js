@@ -1,12 +1,17 @@
-const express = require('express');
-const router = express.Router();
-const data = require('../data/data.json');
+let express = require('express')
+let router = express.Router()
+let { projects } = require('../data/data.json')
 
-router.get('/:id', (req, res) => {
+router.get('/project/:id', (req, res) => {
+    let  projectId  = req.params.id
 
-  const { id } = req.params;
-  
-  res.render('project', {data: data, id: id});
-});
+    let project = projects.find( ({ id }) => id == + projectId)
 
-module.exports = router;
+    if (project) {
+        res.render('project', { project })
+    } else {
+        return res.redirect('/error')
+    }
+})
+
+module.exports = router

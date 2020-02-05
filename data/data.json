@@ -7,7 +7,7 @@
             "technologies":["HTML", "CSS","Javascript"],
             "live_link":"",
             "github_link":"https://github.com/AndrewArtistics/unit1-random-quotes",
-            "image_urls":["/imgs/Project-1-img1.png","/imgs/Project-1-img2.png", "/imgs/Project-1-img3.png", "/imgs/Project-1-img4.png"]
+            "image_urls":["/static/imgs/Project-1-img1.png","/static/imgs/Project-1-img2.png", "/static/imgs/Project-1-img3.png", "/static/imgs/Project-1-img4.png"]
         },
         {
             "id":1,
@@ -16,7 +16,7 @@
             "technologies":["HTML", "CSS","Javascript","JQuery"],
             "live_link":"",
             "github_link":"https://github.com/AndrewArtistics/Unit2-list-pagination",
-            "image_urls":["/imgs/Project-2-img1.png","/imgs/Project-2-img2.png","/imgs/Project-2-img3.png"]
+            "image_urls":["/static/imgs/Project-2-img1.png","/static/imgs/Project-2-img2.png","/static/imgs/Project-2-img3.png"]
         },
         {
             "id":2,
@@ -25,7 +25,7 @@
             "technologies":["HTML", "CSS","Javascript","JQuery"],
             "live_link":"",
             "github_link":"https://github.com/AndrewArtistics/Unit3-interactive",
-            "image_urls":["/imgs/Project-3-img1.png","/imgs/Project-3-img2.png","/imgs/Project-3-img3.png"]
+            "image_urls":["/static/imgs/Project-3-img1.png","/static/imgs/Project-3-img2.png","/static/imgs/Project-3-img3.png"]
         },
         {
             "id":3,
@@ -34,7 +34,7 @@
             "technologies":["HTML", "CSS","Javascript","JQuery","OOP JS"],
             "live_link":"",
             "github_link":"https://github.com/AndrewArtistics/Unit4-game-show",
-            "image_urls":["/imgs/Project-4-img1.png","/imgs/Project-4-img2.png","/imgs/Project-4-img3.png","/imgs/Project-4-img4.png"]
+            "image_urls":["/static/imgs/Project-4-img1.png","/static/imgs/Project-4-img2.png","/static/imgs/Project-4-img3.png","/static/imgs/Project-4-img4.png"]
         },
         {
             "id":4,
@@ -43,7 +43,7 @@
             "technologies":["HTML", "CSS","Javascript","JQuery","AJAX"],
             "live_link":"",
             "github_link":"https://github.com/AndrewArtistics/Unit5-public-api",
-            "image_urls":["/imgs/Project-5-img1.png","/imgs/Project-5-img2.png","/imgs/Project-5-img3.png"]
+            "image_urls":["/static/imgs/Project-5-img1.png","/static/imgs/Project-5-img2.png","/static/imgs/Project-5-img3.png"]
         }
     ]
 }
